@@ -27,6 +27,6 @@ cd vips
 make
 sudo make install
 
-echo 'export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"' >> .bash_profile
+echo 'export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"' >> ~/.bash_profile
 
 source ~/.bash_profile
