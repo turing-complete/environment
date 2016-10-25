@@ -13,9 +13,9 @@ cd "${SOFTWARE_ROOT}"
 curl -LO "${GO_URL}"
 tar -xzf "go${GO_VERSION}.tar.gz"
 
-echo "export GOROOT=${SOFTWARE_ROOT}/go" >> ~/.bash_profile
-echo "export GOPATH=${CODE_ROOT}/go" >> ~/.bash_profile
-echo 'export PATH=${GOROOT}/bin:${PATH}' >> ~/.bash_profile
+echo "export GOROOT='${SOFTWARE_ROOT}/go'" >> ~/.bash_profile
+echo "export GOPATH='${CODE_ROOT}/go'" >> ~/.bash_profile
+echo 'export PATH="${GOROOT}/bin:${PATH}"' >> ~/.bash_profile
 
 source ~/.bash_profile
 
