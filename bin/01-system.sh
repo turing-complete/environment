@@ -4,7 +4,7 @@ set -e
 
 PACKAGES=(
   libglib2.0-dev
-  libpng-dev
+  libtiff-dev
   libxml2-dev
 )
 
